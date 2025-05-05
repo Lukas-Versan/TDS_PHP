@@ -63,7 +63,7 @@
                         <?php
                             $palavra = $_POST['palavra'];
                             echo "<br/> A a palavra digitada foi: <b>$palavra</b>";
-                            echo "<br/> <a href='index.php' class='btn btn-outline-success' tabindex='-1' role='button'>Voltar</a>"
+                            echo "<br/><br/><a href='index.php' class='btn btn-outline-success' tabindex='-1' role='button'>Voltar</a>";
                         ?>
                     </div>
                 </div>
