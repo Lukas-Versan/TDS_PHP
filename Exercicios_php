@@ -639,3 +639,367 @@
         </div>
     </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>AULA HTML</title>
+    </head>
+    <body>
+        <center><h2>EXERCÍCIO 8</h2></center>
+        <hr/>
+        <div class="row justify-content-center row-cols-1 row-cols-md-2 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sw">
+                    <div class="card-header py-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                        <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        </svg>&nbsp;&nbsp;<font style="font-size: 30px;"><b></b>CALCULADORA ANOS BISSEXTOS</font>
+                    </div>
+                    <div class="card-body">
+                        <form action="resultado.php" method="post">
+                            <label class="form-label">Digite o ano:</label>
+                            <input class="form-control" type="number" name="ano" step="0" required placeholder="Digite o ano aqui..."/>
+                            <br/>
+                            <input type="submit" class="btn btn-outline-success" value="VERIFICAR"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>AULA HTML</title>
+    </head>
+    <body>
+        <center><h2>EXERCÍCIO 9</h2></center>
+        <hr/>
+        <div class="row justify-content-center row-cols-1 row-cols-md-2 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sw">
+                    <div class="card-header py-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                        <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        </svg>&nbsp;&nbsp;<font style="font-size: 30px;"><b></b>CALCULADORA</font>
+                    </div>
+                    <div class="card-body">
+                        <form action="resultado.php" method="post">
+                            <label class="form-label">Digite o 1º número:</label>
+                            <input class="form-control" type="number" name="n1" step="0.0001" required placeholder="Digite o número aqui..."/>
+                            <br/>
+                            <label class="form-label">Digite o 2º número:</label>
+                            <input class="form-control" type="number" name="n2" step="0.0001" required placeholder="Digite o número aqui..."/>
+                            <br/>
+                            <label class="form-label">Digite a operação:</label>
+                            <input class="form-control" type="text" name="ope" required placeholder="(+) (-) (*) (/)"/>
+                            <br/>
+                            <input type="submit" class="btn btn-outline-success" value="VERIFICAR"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>AULA HTML</title>
+    </head>
+    <body>
+        <center><h2>EXERCÍCIO 10</h2></center>
+        <hr/>
+        <div class="row justify-content-center row-cols-1 row-cols-md-2 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sw">
+                    <div class="card-header py-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                        <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        </svg>&nbsp;&nbsp;<font style="font-size: 30px;"><b></b>NÍVEL DE EMERGÊNCIA</font>
+                    </div>
+                    <div class="card-body">
+                        <form action="resultado.php" method="post">
+                            <label class="form-label">Digite o nível de emergência</label>
+                            <input class="form-control" type="number" name="n1" step="0" required placeholder="Digite o número aqui..."/>
+                            <br/>
+                            <input type="submit" class="btn btn-outline-success" value="VERIFICAR"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>AULA HTML</title>
+    </head>
+    <body>
+        <center><h2>EXERCÍCIO 11</h2></center>
+        <hr/>
+        <div class="row justify-content-center row-cols-1 row-cols-md-2 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sw">
+                    <div class="card-header py-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                        <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        </svg>&nbsp;&nbsp;<font style="font-size: 30px;"><b></b>O MAIOR</font>
+                    </div>
+                    <div class="card-body">
+                        <form action="resultado.php" method="post">
+                            <label class="form-label">Digite o 1º número</label>
+                            <input class="form-control" type="number" name="n1" step="0" required placeholder="Digite o número aqui..."/>
+                            <br/>
+                            <label class="form-label">Digite o 2º número</label>
+                            <input class="form-control" type="number" name="n2" step="0" required placeholder="Digite o número aqui..."/>
+                            <br/>
+                            <label class="form-label">Digite o 3º número</label>
+                            <input class="form-control" type="number" name="n3" step="0" required placeholder="Digite o número aqui..."/>
+                            <br/>
+                            <input type="submit" class="btn btn-outline-success" value="VER QUAL É O MAIOR"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>AULA HTML</title>
+    </head>
+    <body>
+        <center><h2>EXERCÍCIO 8</h2></center>
+        <hr/>
+        <div class="row justify-content-center row-cols-1 row-cols-md-2 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sw">
+                    <div class="card-header py-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                        <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        </svg>&nbsp;&nbsp;<font style="font-size: 30px;"><b>MÉDIA ARITMÉTICA</b></font>
+                    </div>
+                    <div class="card-body">
+                        <?php 
+                            $ano = $_POST['ano'];
+                            if($ano%400==0 || $ano%4==0 && $ano%100!=0){
+                                echo "O ano $ano é <b>BISSEXTO</b>";
+                            }
+                            else{
+                                echo "O ano $ano <b>NÃO É BISSEXTO</b>";
+                            }
+                            
+                        ?>
+                              <br/><br/><a href='index.php' class='btn btn-outline-success' tabindex='-1' role='button'>VOLTAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>AULA HTML</title>
+    </head>
+    <body>
+        <center><h2>EXERCÍCIO 8</h2></center>
+        <hr/>
+        <div class="row justify-content-center row-cols-1 row-cols-md-2 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sw">
+                    <div class="card-header py-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                        <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        </svg>&nbsp;&nbsp;<font style="font-size: 30px;"><b>MÉDIA ARITMÉTICA</b></font>
+                    </div>
+                    <div class="card-body">
+                        <?php
+                           $n1 = $_POST['n1'];
+                           $n2 = $_POST['n2'];
+                           $ope = $_POST['ope'];
+                           switch($ope){
+                                case "+":
+                                    $res = $n1 + $n2;
+                                    echo "$n1 + $n2 = $res";
+                                break;
+                                case "-":
+                                    $res = $n1 - $n2;
+                                    echo "$n1 - $n2 = $res";
+                                break;
+                                case "*":
+                                    $res = $n1 * $n2;
+                                    echo "$n1 X $n2 = $res";
+                                break;
+                                case "/":
+                                    switch($n2){
+                                        case 0:
+                                            echo "Erro! não foi possível realizar o cálculo";
+                                        break;
+                                        default:
+                                            $res = $n1 / $n2;
+                                            echo "$n1 / $n2 = $res";
+                                        break;
+                                    }
+                                break;
+                                default:
+                                    echo"Não foi possível realizar a operação!";
+                                break;
+                           }
+                        ?>
+                        <br/><br/><a href='index.php' class='btn btn-outline-success' tabindex='-1' role='button'>VOLTAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>AULA HTML</title>
+    </head>
+    <body>
+        <center><h2>EXERCÍCIO 10</h2></center>
+        <hr/>
+        <div class="row justify-content-center row-cols-1 row-cols-md-2 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sw">
+                    <div class="card-header py-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                        <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        </svg>&nbsp;&nbsp;<font style="font-size: 30px;"><b>NÍVEL DE EMERGÊNCIA</b></font>
+                    </div>
+                    <div class="card-body">
+                        <?php 
+                           $n1 = $_POST['n1'];
+                           switch($n1){
+                                case 1:
+                                    ?><div class="alert alert-success"><h3><b>NÍVEL DE ALERTA BAIXO!</b></h3></div><?php
+                                break;
+                                case 2:
+                                    ?><div class="alert alert-warning"><h3><b>NÍVEL DE ALERTA MODERADO!</b></h3></div><?php
+                                break;
+                                case 3:
+                                    ?><div class="alert alert-warning"><h3><b>NÍVEL DE ALERTA ELEVADO!</b></h3></div><?php
+                                break;
+                                case 4:
+                                    ?><div class="alert alert-danger"><h3><b>NÍVEL DE ALERTA CRÍTICO!</b></h3></div><?php
+                                break;
+                                case 5:
+                                    ?><div class="alert alert-danger"><h1><b>EMERGÊNCIA!!!</b></h1></div><?php
+                                break;
+                                default:
+                                    ?><div class="alert alert-danger"><h3><b>Índice inválido!</b></h3></div><?php
+                                break;
+                           }
+                        ?>
+                        <br/><br/><a href='index.php' class='btn btn-outline-success' tabindex='-1' role='button'>VOLTAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>AULA HTML</title>
+    </head>
+    <body>
+        <center><h2>EXERCÍCIO 10</h2></center>
+        <hr/>
+        <div class="row justify-content-center row-cols-1 row-cols-md-2 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sw">
+                    <div class="card-header py-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                        <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        </svg>&nbsp;&nbsp;<font style="font-size: 30px;"><b>NÍVEL DE EMERGÊNCIA</b></font>
+                    </div>
+                    <div class="card-body">
+                        <?php 
+                           $n1 = $_POST['n1'];
+                           $n2 = $_POST['n2'];
+                           $n3 = $_POST['n3'];
+                           if($n1>$n2){
+                            if($n1>$n3){
+                                echo "O maior número é:</br><b> $n1 </b>";
+                            }
+                            else if ($n1<$n3){
+                                echo "O maior número é:</br><b> $n3 </b>";
+                            }
+                            else{
+                                echo "Os números $n1 e $n3 são iguais e maiores que $n2";
+                            }
+                           }
+                           else if($n1<$n2){
+                            if($n2>$n3){
+                                echo "O maior número é:</br><b> $n2 </b>";
+                            }
+                            else if ($n2<$n3){
+                                echo "O maior número é:</br><b> $n3 </b>";
+                            }
+                            else{
+                                echo "Os números $n2 e $n3 são iguais e maiores que $n1";
+                            }
+                           }
+                           else if($n1==$n2){
+                            if($n2>$n3){
+                                echo "Os números $n1 e $n2 são iguais e maiores que $n3";
+                            }
+                            else if ($n2<$n3){
+                                echo "O maior número é:</br><b> $n3 </b>";
+                            }
+                            else{
+                                echo "Os números $n1, $n2 e $n3 são iguais";
+                            }
+                           }
+                        ?>
+                        <br/><br/><a href='index.php' class='btn btn-outline-success' tabindex='-1' role='button'>VOLTAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
