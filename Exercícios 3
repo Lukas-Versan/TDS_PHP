@@ -1,0 +1,44 @@
+  ALUNO: LUKAS VERSAN
+
+  Exercício 1 -------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>SOMA DOS ARRAY'S</title>
+    </head>
+    <?php
+        $numeros = array(2, 4, 6, 8, 10);
+        $i = 0;
+        foreach($numeros as $num){
+            $i = $i + $num;
+        }
+    ?>
+    <body>
+        <br/>
+        <div class="row justify-content-center row-cols-1 row-cols-md-2 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sw">
+                    <div class="card-header py-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+                    </svg>&nbsp;&nbsp;<font style="font-size: 30px;"><b>Soma dos elementos de um array:</b></font>
+                    </div>
+                    <div class="card-body">
+                        <center>
+                        <h3>Array: <br/><?php 
+                        foreach($numeros as $item){
+                            echo "$item, ";
+                        }
+                        ?>
+                        </h3><br/>
+                        <h3><b>A soma dos elementos do array é: <?php echo $i ?> </b></h3></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
