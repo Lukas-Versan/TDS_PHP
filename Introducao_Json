@@ -1,0 +1,10 @@
+<?php
+    /* $dados = ["Maria", "Beto", "Beth"];
+    $conteudo = json_encode($dados, JSON_PRETTY_PRINT);
+    file_put_contents("dados.json", $conteudo); */
+    $conteudo = file_get_contents("dados.json");
+    $dados = json_decode($conteudo, true);
+    foreach($dados as $item){
+        echo "$item  ";
+    }
+?>
