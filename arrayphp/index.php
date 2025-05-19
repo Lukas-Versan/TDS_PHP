@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -8,12 +9,32 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </head>
     <style>
+        .user{
+            float: right;
+        }
         body{
-            background: linear-gradient(-90deg, #D3D3D3, #363636);
+            background: linear-gradient(-45deg, #D3D3D3, #A9A9A9, #363636, #1C1C1C);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+            background-position: 0% 50%;
+            }
+            50% {
+            background-position: 100% 50%;
+            }
+            100% {
+            background-position: 0% 50%;
+        }
+        }
+        .card-body{
+            background-color: #D3D3D3;
         }
     </style>
     <body>
-        <div class="card-body" style="background: #D3D3D3">    
+        <div class="card-body" style="background-color: #D3D3D3">    
             <center><h2><b>PHP/ARRAY</b></h2></center>
         </div>
         <br/><br/>
