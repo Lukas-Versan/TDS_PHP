@@ -12,7 +12,7 @@
             float: right;
         }
         body{
-            background: linear-gradient(-45deg, #4F4F4F, #363636, #363636, #1C1C1C);
+            background: linear-gradient(-45deg, #696969, #4F4F4F, #363636, #1C1C1C);
             background-size: 400% 400%;
             animation: gradient 15s ease infinite;
         }
@@ -36,8 +36,15 @@
             --main-col: #ffeba7;
             --bg-col: #2a2b38;
             --bg-field: #1f2029;
-
-            width: 500px;
+            position: absolute;
+            left: 50%;
+            top: 30%;
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            width: 600px;
             padding: 1.9rem 1.2rem;
             text-align: center;
             background: var(--bg-col);
@@ -138,7 +145,7 @@
             <center><h2><b>PHP/ARRAY</b></h2></center>
         </div>
         <br/><br/>
-        <div class="row justify-content-center row-cols-1 row-cols-md-3 text-center">
+        <div class="row justify-content-center row-cols-1 row-cols-md-3 text-center align-items-center">
             <div class="cols">
                     <div class="card">
                         <h4 class="title">Login</h4>
@@ -149,6 +156,7 @@
                                 autocomplete="off"
                                 id="logemail"
                                 placeholder="Email"
+                                required
                                 class="input-field"
                                 name="email"
                                 type="email"
@@ -168,6 +176,7 @@
                             <input
                                 id="logpass"
                                 placeholder="Senha"
+                                required
                                 class="input-field"
                                 name="senha"
                                 type="password"

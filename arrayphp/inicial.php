@@ -1,14 +1,21 @@
 <?php
     session_start();
-    $emails = json_decode(file_get_contents("email.json"), true);
-    $senhas = json_decode(file_get_contents("senha.json"), true);
-    $nomes = json_decode(file_get_contents("nome.json"), true);
-    $generos = json_decode(file_get_contents("genero.json"), true);
-    $id = array_search($_SESSION['usuario'], $emails);
-    $_SESSION['nomes'] = $nomes;
-    $_SESSION['senhas'] = $senhas;
-    $_SESSION['generos'] = $generos;
-    $_SESSION['emails'] = $emails;
+    if(!isset($_SESSION['nomes'])){
+        $emails = json_decode(file_get_contents("email.json"), true);
+        $senhas = json_decode(file_get_contents("senha.json"), true);
+        $nomes = json_decode(file_get_contents("nome.json"), true);
+        $generos = json_decode(file_get_contents("genero.json"), true);
+        $id = array_search($_SESSION['usuario'], $emails);
+        $_SESSION['nomes'] = $nomes;
+        $_SESSION['senhas'] = $senhas;
+        $_SESSION['generos'] = $generos;
+        $_SESSION['emails'] = $emails;
+    }
+    else{
+        $emails = $_SESSION['emails'];
+        $id = array_search($_SESSION['usuario'], $emails);
+        $nomes = $_SESSION['nomes'];
+    }
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -24,7 +31,7 @@
             float: right;
         }
         body{
-            background: linear-gradient(-45deg, #4F4F4F, #363636, #363636, #1C1C1C);
+            background: linear-gradient(-45deg, #696969, #4F4F4F, #363636, #1C1C1C);
             background-size: 400% 400%;
             animation: gradient 18s ease infinite;
         }
@@ -39,9 +46,6 @@
             100% {
             background-position: 0% 50%;
         }
-        }
-        .card-body{
-            background-color: #D3D3D3;
         }
         /* From Uiverse.io by satyamchaudharydev */ 
         /* === removing default button style ===*/
@@ -130,11 +134,11 @@
                     <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
                     </svg><h3><font color="black"><b>GÊNEROS</b></font></h3>
                     </div>
-                    <div class="card-body">
+                    <center><div class="card-body">
                         <?php
                             include "generos.php";
                         ?>
-                    </div>
+                    </div></center>
                 </div>
             </div>
         </div>

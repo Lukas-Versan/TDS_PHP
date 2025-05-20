@@ -1,6 +1,6 @@
 <?php
     $gen = $_SESSION['generos'];
-    $contagens = array_count_values($gen);
+    $contagens = array_count_values($gen); 
 ?>
 <html>
   <head>
@@ -24,9 +24,9 @@
         data.addColumn('string', 'Topping');
         data.addColumn('number', 'Slices');
         data.addRows([
-          ['Masculino', <?php echo $contagens["Masculino"] ?? 0;?>],
-          ['Feminino', <?php echo $contagens["Feminino"] ?? 0;?>],
-          ['Outro', <?php echo $contagens["Outro"] ?? 0;?>],
+            ['Masculino', <?php echo isset($contagens["Masculino"])?$contagens["Masculino"]:0 ?>],
+            ['Feminino', <?php echo isset($contagens["Feminino"])?$contagens["Feminino"]:0 ?>],
+            ['Outro', <?php echo isset($contagens["Outro"])?$contagens["Outro"]:0 ?>],
         ]);
 
         // Set chart options
